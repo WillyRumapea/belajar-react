@@ -1,27 +1,15 @@
-import PropTypes from "prop-types";
 import React from "react";
+import "./helloworld.css";
 
 function HeaderHelloWorld() {
   const text = "Hello World";
-  return (
-    <h1
-      style={{
-        color: "#808080",
-        fontFamily: "monospace",
-      }}
-    >
-      {text.toLocaleUpperCase()}
-    </h1>
-  );
+  return <h1>{text.toLocaleUpperCase()}</h1>;
 }
 
 function ParagraphHelloWorld() {
   const text = "saya belajar React JS";
-  const style = {
-    color: "sky",
-    fontSize: "30px",
-  };
-  return <p style={style}>{text.toLocaleLowerCase()}</p>;
+
+  return <p>{text.toLocaleLowerCase()}</p>;
 }
 
 function HariBelajarReact({ urutan }) {
@@ -39,9 +27,6 @@ function Mentor() {
     </ul>
   );
 }
-HariBelajarReact.propTypes = {
-  urutan: PropTypes.string.isRequired,
-};
 
 function TombolKlik() {
   const [klik, setKlik] = React.useState(0);

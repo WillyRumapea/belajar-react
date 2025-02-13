@@ -1,0 +1,10 @@
+h1 {
+  color: #01244e;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 20%;
+}
