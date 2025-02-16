@@ -7,6 +7,7 @@ import MyInput from "../button/MyInput.jsx";
 // import MyImg from "../button/MyImg.jsx";
 import Toolbar from "../button/Toolbar.jsx";
 import Search from "../button/Search.jsx";
+import SayHelloName from "../button/SayHelloName.jsx";
 
 // const src = "../../public/vite.svg";
 createRoot(document.getElementById("root")).render(
@@ -23,5 +24,6 @@ createRoot(document.getElementById("root")).render(
       }}
     />
     <Search />
+    <SayHelloName />
   </StrictMode>
 );
