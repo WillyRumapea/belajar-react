@@ -10,6 +10,7 @@ export default function Counter({ name }) {
     //   h1.style.display = "none";
     // }
     console.log(counter);
+    console.log();
   }
   return (
     <div>
